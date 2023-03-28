@@ -1,0 +1,193 @@
+﻿AI Lifecycle Stage,ID,"Risk area
+
+UK GDPR Reference",Data Protection Risk Statement,Risk Assessment Summary,Inherent Risk Rating,Control,Control Objective,Practical steps to reduce the risk,Further ICO Guidance,Practical Steps Your Organisation Will Take,Control Owner,Current status,Completion date,Residual Risk Rating (following action),
+Business requirements and design,1.1,"Accountability
+
+Articles 5(2), 35 and 36 and Recitals 74-77, 84, 89-92, 94 and 95. ","The misidentification of risks to individual rights and freedoms caused by not carrying out a risk assessment. As a consequence, an organisation cannot put in place appropriate technical and organisational measures to prevent harms occurring to individuals.",,,Conduct a data protection impact assessment (DPIA),To identify risks and implement appropriate technical and organisational measures to reduce them.,"You must do a DPIA for processing that is likely to result in high risk to individuals.
+",What are the accountability and governance implications of AI? | ICO,,,,,,
+,,,,,,,,"You must, where appropriate, consult with individuals who are likely to be affected by your use of AI.",,,,,,,
+,,,,,,,,"If you identify a high risk that you cannot mitigate, you must consult with the ICO before starting the processing.",,,,,,,
+,,,,,,,,"As part of your DPIA, you should consult with the teams within your organisation who will be involved in your project to identify data protection risks of your AI project. The teams you may want to consult include the engineering team, the legal and compliance team, and any staff who will be part of the decision pipeline.
+
+",,,,,,,
+,,,,,,,,You could consult with domain experts who can advise on what risks you should address.,,,,,,,
+Business requirements and design,1.2,"Accountability
+
+Articles 5(2) and 24 and Recitals 39 and 74","A lack of accountability over risks to individual rights and freedoms created or exacerbated by AI systems is caused by not clearly assigning roles and responsibilities. As a consequence, risks are left unaddressed, and individuals may suffer harm.",,,Assign technical and operational roles and responsibilities and provide clear direction and support on the use of AI systems and the application of data protection law,To make it clear who is accountable for mitigating and managing risks in the AI system.,"You should appoint a senior owner or senior process owner to drive accountability. 
+",Accountability and governance | ICO,,,,,,
+,,,,,,,,"You should put in place operational procedures, guidance or manuals to support AI policies and provide direction to operational staff on the use of AI systems and the application of data protection law.",,,,,,,
+Business requirements and design,1.3,"Purpose limitation
+
+Article 5(1)(b), Recital 39, Article 6(4) and Recital 50 and Article 30","Function creep over how personal data is processed is caused by not defining what purpose you will use your AI system. As a consequence, individuals lose control over how their data is being used.",,,"Document each purpose for using personal data at each stage of the AI lifecycle, assess whether they are compatible with the originally defined purpose, and schedule reviews to reassess your purposes and whether they remain compatible.","To define what your AI system will be used for, how personal data will be used and prevent incompatible processing taking place.","You must provide clear transparency information to inform individuals about your purposes from the outset. For example, in a privacy notice.",Principle (b): Purpose limitation | ICO,,,,,,
+,,,,,,,,"You should consider completing a data flow mapping exercise to document the data that flows in, through and out of an AI system to ensure a lawful basis and, if necessary, Article 9 or Article 10 condition (or both) is selected for each purpose.",,,,,,,
+Business requirements and design,1.4,"Fairness
+
+Article 5(1)(a); Recital 71","AI systems producing unfair outcomes for individuals are caused by insufficiently diverse training data, training data inappropriate for the purpose of the AI system, training data that reflects past discrimination, design architecture choices or another reason. As a consequence, individuals suffer from unjustified adverse impacts such as discrimination, financial loss or other significant economic or social disadvantages.
+",,,"Document an assessment of the different ways your AI system could result in unfairness, which should include appropriate technical and organisational measures you will use to mitigate or manage those risks on a continual basis.",To identify risks associated with fairness and take appropriate preventative action,"You should ensure the assessment is conducted by appropriately skilled personnel (this may require a cross-disciplinary approach, eg data scientists working with legal counsel and review boards). 
+
+","What do we need to do to ensure lawfulness, fairness, and transparency in AI systems? | ICO",,,,,,
+,,,,,,,,You should ensure the assessment initially focuses on the expected outcomes that are experienced by individuals directly affected by your processing.,,,,,,,
+,,,,,,,,You could engage with stakeholders to draw out the risks that your processing is likely to have.,,,,,,,
+Business requirements and design,1.5,"Transparency
+
+Article 5(1)(a); Articles 12-15","The lack of transparency, interpretability and/or explainability is caused by choices about how an AI system is designed and developed. As a consequence, individuals lack the understanding about how their data is being used, how the AI system affects them, and how to exercise their individual rights. ",,,"Document and assess the explainability and transparency requirements, considering the domain, sector or use case that your AI system will be deployed in.",To provide clear requirements for transparency and explainability of the AI system that allows for effective product optimisation.,"You must provide individuals with privacy information at the time you collect their personal data from them. If you collect their personal data from a source other than the individual it relates, then provide them with privacy information within a reasonable period of obtaining the personal data and no later than one month, before or when the first communication takes place or before or when data is disclosed to someone else.",Explaining decisions made with AI | ICO,,,,,,
+,,,,,,,,"You should assess people's expectations of the content and scope of similar explanations previously offered or researching sector-specific expectations. For example, what are the expectations of individuals in a health context compared to an insurance context. You should consider, for example, the people affected by the decision and the end users.
+
+",,,,,,,
+,,,,,,,,You should assess how well the outcome of the AI system is understood to help you decide how comprehensive your explanation needs to be. ,,,,,,,
+Business requirements and design,1.6,"Security
+
+Articles 5(1)(f) and 32-34 and Recital 83","The unauthorised or unlawful processing, accidental loss, destruction, or damage of personal data is caused by insecure AI systems. As a consequence, individuals can suffer from financial loss, identity fraud and a loss of trust.",,,"Document and assess the security risks, and the appropriate technical and organisational measures you will use to mitigate or manage those risks.",To demonstrate that security risks have been thought about from the beginning and that a data protection design approach has been adopted.,"You must consider the security risks associated with integrating an AI system with existing systems, and document what controls will be put in place as part of the design and build phase. The level of risk will likely vary depending on the context your AI system will be used in.
+
+",How should we assess security and data minimisation in AI? | ICO,,,,,,
+,,,,,,,,"You should consider processes to report security breaches, and who is responsible for handling and managing them as part of an AI incident response plan.",,,,,,,
+,,,,,,,,You could consult with appropriately skilled technical experts about what the latest state-of-the-art is.,,,,,,,
+Business requirements and design,1.7,"Data minimisation; Storage Limitation
+
+Articles 5(1)(c ), 5(1)(e ), 5(1)(b), Recital 39, Article 6(4) and Recital 50","The excessive and irrelevant collection of personal data is caused by a default approach to collect as much data as possible to design and build AI systems. As a consequence, individuals suffer from unlawful and unfair processing.",,,"Document the data you will collect to train the AI system and assess whether it is accurate, adequate, relevant, and limited to your purpose(s).",To demonstrate compliance with the data minimisation principle.,"You should include details in your privacy policy and privacy notice about your retention periods and how often you review whether you still need to hold personal will take place. You are in the best position to judge how often these take place. Factors to consider include a change in your overall purpose, signs of model drift, or wider shifts in society.",How should we assess security and data minimisation in AI? | ICO,,,,,,
+,,,,,,,,You should ensure that you have regular internal discussions about what personal data is needed and why it is required.,,,,,,,
+,,,,,,,,You could assess what privacy-enhancing technologies would be appropriate for your use case.,,,,,,,
+,,,,,,,,"You could consult with domain experts to ensure that the data you intend on collecting is appropriate and adequate.
+",,,,,,,
+Business requirements and design,1.8,"Individual rights
+
+Articles 15-22","The failure to respond adequately to information rights requests is caused by a lack of awareness that data subject rights apply throughout the lifecycle of an AI system wherever personal data is used. As a consequence, individuals become disempowered over how their personal data is used and lose trust in the organisation handling their personal data.",,,Document how you will facilitate individual rights requests throughout the lifecycle of your AI system where personal data will be processed.,To ensure individual rights requests are handled appropriately.,"You should index the personal data in your AI system so that it is easier to retrieve when a request is received.
+",How do we ensure individual rights in our AI systems? | ICO,,,,,,
+,,,,,,,,You should organise training within the organisation to ensure developers are aware of the need to provide functionality to enable the organisation to respond to individuals exercising their rights.,,,,,,,
+,,,,,,,,You could conduct user testing to get feedback on how effective the delivery of your privacy information is.,,,,,,,
+Business requirements and design,1.9,"Meaningful human review
+
+Article 13(2)(f); Article 14(2)(g); Article 15(1)(h); Article 22 ","Tokenistic human review of outputs by AI systems may inadvertently cause solely automated decision-making with legal or similarly significant effects. As a consequence, individuals suffer from prohibited processing taking place and inaccurate and/or unfair decisions being made about them, which have legal or similarly significant effects.",,,"Document and assess when you will incorporate meaningful human review in the decision pipeline, who will conduct the review, and what additional information they will take into consideration when making the final decision.",To ensure compliance with legal requirements.,You must ensure meaningful human review when your decisions are solely automated and have legal or similarly significant effects unless Article 22 exemptions apply.,How do we ensure individual rights in our AI systems? | ICO,,,,,,
+,,,,,,,,"You must (where Article 22 applies) ensure human reviewers have the authority and ability to challenge and override automated decision-making, and they consider additional factors when making the final decision. 
+",,,,,,,
+,,,,,,,,You should ensure human reviewers are capable of intervening on the automated decisions and maintain a record of what information the human reviewer saw when making the final decision. You could consider what tools human reviewers need to make a meaningful final decision and how to record that those tools were properly used.,,,,,,,
+Data acquisition and preparation ,2.1,"Lawfulness
+
+Article 5(1)(a); Article 6; Article 9","Failing to choose an appropriate lawful basis causes the unlawful collection of personal data. As a consequence, individuals lose trust over how their data is used and suffer from unfair processing.",,,Identify and document valid grounds for collecting and using personal data.,To ensure your processing is lawful.,"You must identify an appropriate lawful basis (or bases) for your processing. If processing special category data or criminal offence data, you must identify a condition for processing this type of data. You should consult with your data protection officer about what is the most appropriate lawful basis (bases) and if required the additional conditions for processing.","What do we need to do to ensure lawfulness, fairness, and transparency in AI systems? | ICO",,,,,,
+,,,,,,,,You must include your lawful basis (plus any additional conditions for processing) in your privacy notice along with the purposes.,Lawful basis for processing | ICO,,,,,,
+,,,,,,,,"Where your chosen lawful bases depend on the processing being 'necessary', you must assess whether the processing is targeted and proportionate way of achieving a specific purpose and whether you can achieve the purpose by some other less intrusive means, or by processing less data.",,,,,,,
+Data acquisition and preparation ,2.2,"Fairness
+
+Article 5(1)(a); Recital 71","An AI system that produces unfair outcomes for different individuals or groups is caused by insufficiently diverse training data, training data inappropriate for the purpose of the AI system, or training data that reflects past discrimination. As a consequence, individuals suffer from unjustified adverse impacts such as discrimination, financial loss or other significant economic or social disadvantages.",,,"Document and assess what data you need to ensure a representative, reliable and relevant training dataset.",To demonstrate that you have attempted to mitigate risks associated with unfair outcomes caused by low quality datasets.,"You should consider appropriate technical approaches to mitigating possible bias, such as re-weighting, or removing the influence of protected characteristics and their proxies.","What do we need to do to ensure lawfulness, fairness, and transparency in AI systems? | ICO",,,,,,
+,,,,,,,,You should factor in risks of past discrimination.,,,,,,,
+,,,,,,,,You could research the population that your AI system is likely to impact and flag any risks of bias or discrimination.,,,,,,,
+Data acquisition and preparation ,2.3,"Fairness
+
+Article 5(1)(a); Recital 71","Individuals suffering discriminatory outcomes are caused by an AI system relying on protected characteristics (or their proxies) to make a decision. As a consequence, individuals suffer from unlawful decisions being made about them and miss out on economic or social benefits.",,,"Assess, document, and maintain an index of data sources or features that should not be processed when making decisions about individuals because of direct or indirect discrimination.",To prevent an AI system producing discriminatory decisions based on protected characteristics or their proxies.,"You should consider whether to collect these features for the purpose of bias analysis. Note that processing personal data for bias analysis generally carries lower risk than for decision-making purposes that directly affect the individual, but as a separate processing purpose, will require a lawful basis and a condition for processing.","What do we need to do to ensure lawfulness, fairness, and transparency in AI systems? | ICO",,,,,,
+Data acquisition and preparation ,2.4,"Fairness
+
+Article 5(1)(a) and Recital 71 and Article 9 and Recitals 51 to 56 (see also Schedule 1 of the Data Protection Act 2018)","Bias is caused by a lack of, or poorly conducted, bias analysis. As a consequence, individuals suffer from undetected discriminatory outcomes and miss out on economic or social benefits.",,,Assess and document which protected characteristics data you will collect for bias analysis.,To detect and correct an AI system exhibiting bias.,You must identify the lawful bases and additional processing conditions for the bias analysis.,"What do we need to do to ensure lawfulness, fairness, and transparency in AI systems? | ICO",,,,,,
+,,,,,,,,You must ensure that individuals are aware of how their data will be used for bias analysis.,,,,,,,
+,,,,,,,,You should consider whether you need to process additional data to carry out your bias analysis and whether you need to create labels for data you already hold or whether you need to collect more data. This may include special category/protected characteristic data.,,,,,,,
+Data acquisition and preparation ,2.5,"Fairness
+
+Article 5(1)(a); Recital 71","Poor labelling of training data is caused by unclear labelling policies. As a consequence, individuals suffer from inaccurate and/or unfair outcomes made about them by AI systems.",,,Document clear criteria and lines of accountability for the labelling of data.,To prevent data labelling that will lead to unfair outcomes for individuals. ,"You should create labelling criteria that are: easy to understand, include descriptions for all possible labels, examples of every label, cover edge cases.
+
+
+","What do we need to do to ensure lawfulness, fairness, and transparency in AI systems? | ICO",,,,,,
+,,,,,,,,You should produce training manuals for labelling and annotation.,,,,,,,
+,,,,,,,,You could consult with members of protected groups or their representatives to define the labelling criteria.,,,,,,,
+,,,,,,,,You could involve multiple human labellers to ensure consistency across multiple rounds of reviewing.,,,,,,,
+,,,,,,,,You could document statistics on level of agreement reached by human annotators.,,,,,,,
+Data acquisition and preparation ,2.6,"Fairness
+
+Article 5(1)(a); Recital 71","Inadequate training datasets leading to overfitting is caused by not collecting enough features or enough cases. As a consequence, individuals suffer from poor outcomes made by the AI system.",,,Assess and document whether your model is likely to suffer from overfitting.  ,To detect and correct any features in your training dataset that are likely to result in your model suffering from overfitting.,You must remove any features that are likely to result in overfitting.,"What do we need to do to ensure lawfulness, fairness, and transparency in AI systems? | ICO",,,,,,
+,,,,,,,,You should monitor model performance metrics (eg precision and recall) to determine sources of possible overfitting issues.,,,,,,,
+,,,,,,,,"You could collect more data to ensure the training dataset will be representative of the population you will deploy your model on. Although, this should be balanced with individuals' rights to not be subject to excessive, unlawful or unfair processing of their personal data.",,,,,,,
+Data acquisition and preparation ,2.7,"Transparency
+
+Article 5(1)(a); Articles 12-15","Unclear privacy notices are caused by a lack of clear internal definitions about what your AI system will be used for. As a consequence, individuals cannot understand or have control over how their personal information is processed.",,,"Assess, document, and publish privacy information about what personal data you will be processing and for what purposes. ",To prevent data subjects losing control over how their personal data is processed.,You must tell individuals about your processing in a way that is easily accessible and easy to understand. You must use clear and plain language.,Transparency | ICO,,,,,,
+,,,,,,,,"You must include information about the purposes of the processing for which the personal data are intended as well as the lawful basis for processing and the categories of personal data concerned.
+",,,,,,,
+,,,,,,,,You should test whether the privacy information is presented in a way that is accessible and understandable to the people the AI system will be applied to.,,,,,,,
+Data acquisition and preparation ,2.8,"Data minimisation
+
+Article 5(1)(c ) and Recital 39","The collection of too much personal data is caused by not applying de-identification techniques. As a consequence, individuals suffer from unlawful and unfair processing.",,,Apply de-identification techniques to training data before it is extracted from its source and shared internally or externally.,To prevent the collection of personal data that exceeds the minimum of what is necessary to train your AI model(s). ,You should assess what privacy enhancing technologies are appropriate for your use case.,How should we assess security and data minimisation in AI? | ICO,,,,,,
+,,,,,,,,,"ICO call for views: Anonymisation, pseudonymisation and privacy enhancing technologies guidance | ICO",,,,,,
+Training and testing ,3.1,"Purpose limitation
+
+Article 5(1)(b), Recital 39, Article 6(4) and Recital 50 and Article 30","Undetected function creep is caused by a learning algorithm developing in an unpredicted way. As a consequence, individuals lose their right to be informed about how their data is being used and lose trust in the organisation handling their personal data.",,,Assess and document whether your current purposes are different from your initial purposes. ,To detect any changes in the purposes of how you will deploy your AI system. To correct any identified function creep risks. ,"You must ensure that if you plan to use or disclose personal data for any purpose that is additional to or different from the originally specified purpose, the new use is fair, lawful and transparent.",Principle (b): Purpose limitation | ICO,,,,,,
+,,,,,,,,"You must update your documentation and your privacy information to reflect your new purpose.
+",,,,,,,
+,,,,,,,,"You must consider whether any consents you rely on cover the change in purpose.
+",,,,,,,
+Training and testing ,3.2,"Fairness
+
+Article 5(1)(a); Recital 71","Overfitting is caused by a learning algorithm paying too much attention to the specific features in the training datasets. As a consequence, individuals who aren't similar to the individuals in the training datasets suffer from inaccurate and unfair outcomes.",,,Document and assess whether your AI system can handle data from a wide range of (sub)populations fairly and accurately.,To detect any (sub)populations that will be unfairly treated by your AI system and to optimise the model(s).,"You should consider whether you need to collect more data from a subpopulation to yield more accurate results. 
+
+","What do we need to do to ensure lawfulness, fairness, and transparency in AI systems? | ICO",,,,,,
+,,,,,,,,You should assess and justify your choice between collecting more data to reduce the disproportionate number of statistical errors and not collecting such data due to the risks doing so may pose to the other rights and freedoms of those individuals.,,,,,,,
+,,,,,,,,You could consider using feature engineering techniques to aggregate features for training to avoid using personally identifiable data.,,,,,,,
+Training and testing ,3.3,"Fairness
+
+Article 5(1)(a); Recital 71",Discriminatory outcomes caused by an algorithm basing decisions on protected characteristics (or their proxies) leads to adverse impacts on individuals such as financial loss or other significant economic or social disadvantages.,,,Test whether your AI system produces similar outcomes for individuals who have different protected characteristics.,To prevent discriminatory outcomes once the AI system is deployed.,"You should measure different types of error (eg false positives, false negatives, etc).
+
+","What do we need to do to ensure lawfulness, fairness, and transparency in AI systems? | ICO",,,,,,
+,,,,,,,,You should consider whether the testing dataset is adequate.,,,,,,,
+,,,,,,,,You should record any limitations of the model in the context of statistical inaccuracies.,,,,,,,
+,,,,,,,,You could consider documenting the limitations in a model card.,,,,,,,
+Training and testing ,3.4,"Transparency
+
+Article 5(1)(a); Articles 12-15","Individuals being subject to unexplainable decisions are caused by AI systems that use high dimensionality or complex learning algorithms. As a consequence, individuals cannot exercise their right to be informed and may feel disempowered to object to the decision.",,,Assess and document the explainability of your AI system and consider what supplementary tools you can use to help explain decisions made by your AI system to individuals who will be affected.,To prevent an unexplainable model being deployed and negatively impacting a population.,You must provide meaningful information about the logic involved where you are using solely automated decision-making which has legal or similarly significant effects for the individual.,Explaining decisions made with AI | ICO,,,,,,
+,,,,,,,,"You should test the effectiveness of your explanations by measuring how well individuals can understand why the model made the decision it did, or how the model output contributed to the decision.
+
+
+",,,,,,,
+,,,,,,,,You should design explanations that meet the needs of those interacting with the system at different moments e.g. someone interacting with an AI system for the first time vs. someone using an automated result to support a critical decision.,,,,,,,
+,,,,,,,,You could consider when you will need to explain automated results to the different user groups interacting with the AI system and whether there is an easy way to challenge these decisions or obtain human intervention.,,,,,,,
+,,,,,,,,"You could consider textual clarification, visualisation media, graphical representations, summary tables, or a combination as part of your explanation.",,,,,,,
+Training and testing ,3.5,"Security
+
+Article 5(1)(f); Articles 32-34","Inappropriate access to training data, training code, and deployment code is caused by lax security policies. As a consequence, individuals may have their personal data subjected to data poisoning attacks leading to unfair advantages or disadvantages. ",,,"Document and implement strict controls over who has access to training data, training code, and deployment code.","To ensure there is a clear audit trail of who has access to the training data, training code, and deployment code, and when they have access.",You should consider the principle of least privilege - where a user is given the minimum levels of access or permissions to perform their job functions. Ensure this is regularly reviewed and access is revoked where necessary. You should keep logs of who has access and/or editing rights.,How should we assess security and data minimisation in AI? | ICO,,,,,,
+Training and testing ,3.6,"Security
+
+Articles 5(1)(f) and 32-34 and Recital 83","Accidental loss of training and testing data is caused by a lack of accountability and documentation. As a consequence, individuals lose control over how their data is processed and lose trust in the organisation handling their personal data.",,,Document clear audit trails of how personal data is moved and stored from one location to another during the training and testing phase.,To prevent a security breach where personal data is accidentally lost.,You should keep an up-to-date inventory of all AI systems to allow you to have a baseline understanding of where potential incidents could occur.,How should we assess security and data minimisation in AI? | ICO,,,,,,
+,,,,,,,,"You should document security processes and make it freely available for all those involved in the building and deployment of AI systems. This should include processes to report security breaches, and who is responsible for handling and managing them as part of an AI incident response plan. An AI incident response plan should include guidance on how to quickly address any failures or attacks that occur, who responds when an incident occurs, and how they communicate the incident to other parts of the organisation.",,,,,,,
+Training and testing ,3.7,"Security
+
+Articles 5(1)(f) and 32-34 and Recital 83","Undetected security vulnerabilities in an AI system’s software stack are caused by a lack of, or poorly conducted, security checks of software. As a consequence, individuals suffer from security attacks and breaches of their personal data.",,,Assess and document the security risks of the software you are using. Implement appropriate technical and organisational measures to reduce risks identified.,To prevent security vulnerabilities from occurring. ,"You should carry out security testing of your software, either in-house or contract someone external.",How should we assess security and data minimisation in AI? | ICO,,,,,,
+,,,,,,,,You could subscribe to security advisories to receive alerts of vulnerabilities and ensure solid patching / updating processes are in place where software is externally maintained.,,,,,,,
+Training and testing ,3.8,"Data minimisation
+
+Article 5(1)(c ); Article 5(1)(e )","Processing more data than is strictly necessary is caused by a lack of a review over what data is needed to effectively train and test the AI system. As a consequence, individuals suffer from unlawful and unfair processing.",,,"Reassess and document what data is necessary, adequate, and relevant for training and testing your AI system. Erase any data that is not needed.","To ensure that only personal data that is necessary, adequate, and relevant is processed.","You must consider whether any data has been duplicated or copied during the training and testing phase.
+",How should we assess security and data minimisation in AI? | ICO,,,,,,
+,,,,,,,,You should consider the trade-off between data minimisation and statistical accuracy and whether you can remove some data without significantly affecting the accuracy of your model.,,,,,,,
+Training and testing ,3.9,"Meaningful human review
+
+Article 13(2)(f); Article 14(2)(g); Article 15(1)(h); Article 22 ","Non-meaningful human review is caused by a lack of training for human reviewers to interpret and challenge outputs made by an AI system. As a consequence, individuals are subject to unlawful solely automated decisions that have legal effects or similar significant effects that are inaccurate and/or unfair.",,,Design and implement appropriate training for human reviewers.,"To ensure that human reviewers can interpret, and challenge outputs made by the AI system once the system is deployed.","You must (where Article 22 applies) design your AI system to ensure that human reviewers have meaningful influence over the decision, including the authority and competence to go against the recommendation and take into account other additional factors that weren't included as part of the input data.",How do we ensure individual rights in our AI systems? | ICO,,,,,,
+Deployment and monitoring,4.1,"Fairness
+
+Article 5(1)(a); Recital 71","Undetected model drift is caused by irregular system testing. As a consequence, individuals suffer from unfair decisions being made about them and may exclude them from social or economic opportunities.",,,Document and define a testing regime to occur at regular intervals.,To detect and correct model drift in appropriate timeframes.,You must inform individuals about any testing process that involves their personal data.,"What do we need to do to ensure lawfulness, fairness, and transparency in AI systems? | ICO",,,,,,
+,,,,,,,,You should establish metrics and thresholds for model drift that trigger review and testing.,,,,,,,
+,,,,,,,,"You should save versions of your model, which can be reverted back to if significant drift occurs.",,,,,,,
+,,,,,,,,"You could consider running a traditional decision-making system and an AI system concurrently and investigate any significant difference in the type of decisions.
+
+
+",,,,,,,
+Deployment and monitoring,4.2,"Transparency
+
+Article 5(1)(a); Articles 12-15","Where the steps set out in 3.4 are followed, non-meaningful explanations may still be caused by failing to update how they are presented following feedback from individuals. As a consequence, individuals cannot be informed about how their data has been used, nor receive meaningful information about the logic involved.",,,Document and define a redress as well as feedback mechanism that allows individuals to comment on the explanations they receive. ,To detect and correct ineffective explanations.,You could proactively engage with individuals to see how you can improve the explanations you provide.,Explaining decisions made with AI | ICO,,,,,,
+Deployment and monitoring,4.3,"Security
+
+Articles 5(1)(f) and 32-34 and Recital 83","Attacks on AI systems are caused by poor security practices. As a consequence, individuals have their personal data subject to data breaches leading to potential financial losses and/or fraud.",,,Document and define technical and organisational measures that will reduce security risks.,To detect and correct security vulnerabilities.,You should assess the trade-off between explainability of your model and the risk of a security breach.,How should we assess security and data minimisation in AI? | ICO,,,,,,
+,,,,,,,,You should proactively monitor your AI system and investigate any anomalies.,,,,,,,
+,,,,,,,,You should introduce real-time monitoring techniques that can detect anomalies (eg 'rate limiting' which reduces the number of queries that can be performed by a particular user in a given time limit).,,,,,,,
+,,,,,,,,You could deny anonymous use of your AI system by implementing processes that require user identity.,,,,,,,
+,,,,,,,,"You could employ someone to regularly debug your model. 
+
+
+
+",,,,,,,
+Deployment and monitoring,4.4,"Data minimisation
+
+Article 5(1)(c ); Article 5(1)(e )","Model drift is caused by training data no longer being relevant or adequate. As a consequence, individuals suffer from unlawful and unfair processing.",,,"Document and define mechanisms to monitor the performance of your model. Where model drift is identified, assess, and delete (or anonymise) training data that is inadequate or irrelevant to your model’s performance.",To detect and correct any inadequate or irrelevant personal data.,You must regularly assess drift and retrain the model on new data where necessary.,How should we assess security and data minimisation in AI? | ICO,,,,,,
+,,,,,,,,"You should decide and document appropriate thresholds for determining whether your model needs to be retrained, based on the nature, scope, context and purposes of the processing and the risks it poses.",,,,,,,
+Deployment and monitoring,4.5,"Meaningful human review
+
+Article 22 ","Non-meaningful human review is caused by automation bias or a lack of interpretability. As a result, individuals may not be able to exercise their right to not be subject to solely automated decision-making with legal or similarly significant effects.",,,Document and define measures to ensure human review remains meaningful.,To ensure human reviewers are able to carry out their function meaningfully.,"You could periodically test whether a human reviewer identifies an intentionally inaccurate decision.
+",How do we ensure individual rights in our AI systems? | ICO,,,,,,
+,,,,,,,,You could maintain a log of all automated decisions that were overridden by a human reviewer and the reasons why.,,,,,,,
+Deployment and monitoring,4.6,"Purpose limitation
+
+Article 5(1)(b), Recital 39, Article 6(4) and Recital 50 and Article 30","Incompatible or repurposed processing is caused by a shift in how the AI system is deployed. As a result, individuals’ lose control over how their data is used, become uninformed and lose trust in the organisation handling their personal data.",,,Assess any changes in the purpose of your AI system and ensure any changes meet legal requirements.,To detect any changes in purposes and to ensure that processing remains lawful.,"You must ensure that if you plan to use or disclose personal data for any purpose that is additional to or different from the originally specified purpose, the new use is fair, lawful and transparent.",Principle (b): Purpose limitation | ICO,,,,,,
+,,,,,,,,"You should regularly review your processing, documentation and privacy notices to check that your purposes have not evolved over time beyond those you originally specified.",,,,,,,
